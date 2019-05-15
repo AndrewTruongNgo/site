@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends React.Component {
 	constructor(props) {
@@ -7,9 +8,11 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div>
-				<div>Hello Andrew</div>
-			</div>
+			<Router basename={process.env.PUBLIC_URL}>
+				<div>
+					<div>Hello Andrew</div>
+				</div>
+			</Router>
 		);
 	}
 }
