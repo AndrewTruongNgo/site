@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
 
 class App extends React.Component {
 	constructor(props) {
@@ -8,9 +7,9 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<HashRouter basename="/">
+			<div>
 				<div>Hello Andrew</div>
-			</HashRouter>
+			</div>
 		);
 	}
 }

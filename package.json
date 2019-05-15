@@ -3,11 +3,12 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"homepage": "https://andrewtruongngo.github.io",
 	"scripts": {
 		"build": "webpack --mode production --watch",
-		"deploy": "gh-pages -d client/dist"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -b master -d client/dist"
 	},
+	"homepage": "https://AndrewTruongNgo.github.io",
 	"author": "Andrew Ngo",
 	"license": "ISC",
 	"devDependencies": {
