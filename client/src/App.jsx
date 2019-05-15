@@ -8,7 +8,7 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<HashRouter basename="https://andrewtruongngo.github.io/">
+			<HashRouter basename="https://andrewtruongngo.github.io/site">
 				<div>
 					<div>Hello Andrew</div>
 				</div>
