@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 
 class App extends React.Component {
 	constructor(props) {
@@ -8,11 +8,11 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<Router basename={process.env.PUBLIC_URL}>
+			<HashRouter basename="https://andrewtruongngo.github.io/">
 				<div>
 					<div>Hello Andrew</div>
 				</div>
-			</Router>
+			</HashRouter>
 		);
 	}
 }
