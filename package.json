@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack --mode production --watch",
+		"build": "webpack --mode production",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -b master -d client/dist"
 	},
