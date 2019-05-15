@@ -6,9 +6,9 @@
 	"scripts": {
 		"build": "webpack --mode production",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -b master -d client/dist"
+		"deploy": "gh-pages -d client/dist"
 	},
-	"homepage": "https://AndrewTruongNgo.github.io",
+	"homepage": "https://AndrewTruongNgo.github.io/site",
 	"author": "Andrew Ngo",
 	"license": "ISC",
 	"devDependencies": {
